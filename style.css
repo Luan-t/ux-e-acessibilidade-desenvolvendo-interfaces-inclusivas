@@ -1,0 +1,135 @@
+
+        /* RESET E CONFIGURAÇÕES DE ACESSIBILIDADE */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* Fonte grande e muito fácil de ler */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px; 
+            line-height: 1.6;
+            background-color: #F4F4F9;
+            color: #111111; /* Alto contraste */
+            padding-bottom: 40px;
+        }
+
+        /* CABEÇALHO */
+        header {
+            background-color: #004080; /* Azul escuro acessível */
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 20px;
+            border-bottom: 5px solid #FFC107; /* Amarelo para destacar */
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 24px;
+        }
+
+        /* CONTAINER PRINCIPAL */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* MENU DE NAVEGAÇÃO / DICAS RÁPIDAS */
+        .menu-ancoras {
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid #004080;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .menu-ancoras h2 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: #004080;
+        }
+
+        .btn-menu {
+            display: inline-block;
+            background-color: #004080;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 15px 25px;
+            margin: 10px 5px;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 8px;
+            border: 3px solid transparent;
+        }
+
+        /* Destaque visual ao passar o mouse ou focar no botão */
+        .btn-menu:hover, .btn-menu:focus {
+            background-color: #00264d;
+            border-color: #FFC107;
+            outline: none;
+        }
+
+        /* CARTÕES DE DICAS */
+        .card {
+            background-color: #FFFFFF;
+            border: 3px solid #CCCCCC;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        .card h3 {
+            color: #004080;
+            font-size: 28px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #EEEEEE;
+            padding-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 15px;
+        }
+
+        /* LISTAS MAIS LIMPAS E ESPAÇADAS */
+        .card ul {
+            list-style-type: square;
+            padding-left: 30px;
+        }
+
+        .card li {
+            margin-bottom: 10px;
+        }
+
+        /* ÁREA DE ALERTA/URGÊNCIA */
+        .alerta {
+            background-color: #FFF3CD;
+            border-left: 10px solid #856404;
+            color: #856404;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .alerta h3 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        /* RODAPÉ */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222222;
+            color: #FFFFFF;
+            margin-top: 40px;
+            font-size: 18px;
+        }
+    
