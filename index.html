@@ -1,76 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Guia de Segurança Digital - Sênior</title>
-    
+    <title>Guia de Segurança Digital - Internet Segura</title>
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Internet Segura</h1>
-        <p>Seu guia simples para navegar sem medo na internet</p>
+    <!-- CABEÇALHO -->
+    <header role="banner">
+        <h1>🔒 Internet Segura</h1>
+        <p>Dicas simples para navegar sem medo</p>
     </header>
 
-    <main class="container">
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main role="main">
 
-        <!-- Atalhos para facilitar a navegação -->
-        <nav class="menu-ancoras">
-            <h2>Escolha o assunto que deseja ler:</h2>
-            <a href="#senhas" class="btn-menu">1. Senhas Seguras</a>
-            <a href="#golpes" class="btn-menu">2. Evitar Golpes</a>
-            <a href="#whatsapp" class="btn-menu">3. Usar WhatsApp</a>
-        </nav>
+        <!-- BOAS-VINDAS -->
+        <section class="boas-vindas" aria-label="Introdução">
+            <h2>Olá! Seja bem-vindo(a).</h2>
+            <p>A internet ajuda a falar com a família e ver notícias, mas exige cuidado. Siga as dicas abaixo para
+                navegar com tranquilidade!</p>
+        </section>
+
+        <div class="modal-fundo">
+
+
+            <!-- SEÇÃO DE AJUDA E EMERGÊNCIA -->
+            <section class="secao-ajuda" aria-label="Ajuda e Suporte">
+                <h2>Ficou com dúvidas ou acha que caiu em um golpe?</h2>
+                <ol>
+               <li><strong>Não tenha vergonha! Peça ajuda imediatamente para alguém da sua confiança.</strong></li>  
+               <li><strong>Ligue para um filho, neto ou algum amigo próximo</strong></li>
+                    <li><strong>Ligue para o seu banco</strong>usando o numero que está atrás do seu cartão</li>
+                    <li><strong>Registre um boletim de ocorrência</strong>na delegacia mais próxima ou pela internet.</li>
+                    
+                </ol>
+                        <button class="botao-ajuda">Fechar</button>
+            </section>
+
+
+        </div>
+
+
 
         <!-- DICA 1 -->
-        <section id="senhas" class="card">
-            <h3>🔑 1. Como Criar Senhas Seguras</h3>
-            <p>A sua senha é a chave da sua casa na internet. Para mantê-la protegida:</p>
-            <ul>
-                <li><strong>Não use datas de aniversário</strong> ou o seu próprio nome.</li>
-                <li>Misture letras, números e símbolos (como @, # ou !).</li>
-                <li><strong>Nunca anote senhas no celular.</strong> Prefira guardar em um caderno em casa.</li>
-                <li>Não repita a mesma senha para tudo.</li>
-            </ul>
-        </section>
+        <article class="cartao-dica">
+            <h3><span class="icone" aria-hidden="true">🔑</span> 1. Crie Senhas Fortes</h3>
+            <p>Sua senha é como a chave da sua casa. Não use datas de nascimento ou nomes de parentes.</p>
+            <div class="alerta">
+                💡 <strong>Dica de ouro:</strong> Misture letras, números e guarde a senha em um caderno seguro em casa,
+                nunca colada no celular.
+            </div>
+        </article>
 
         <!-- DICA 2 -->
-        <section id="golpes" class="card">
-            <h3>⚠️ 2. Como Evitar Golpes no Celular</h3>
-            <p>Criminosos tentam enganar as pessoas se passando por bancos ou parentes. Fique atento:</p>
-            <ul>
-                <li><strong>Bancos não ligam pedindo senha</strong> ou para cancelar pagamentos.</li>
-                <li>Se receber mensagem de um parente pedindo dinheiro urgente, <strong>ligue para a pessoa</strong> antes de mandar qualquer valor.</li>
-                <li>Não clique em links (links azuis) que chegaram de números desconhecidos.</li>
-            </ul>
-        </section>
+        <article class="cartao-dica">
+            <h3><span class="icone" aria-hidden="true">📩</span> 2. Cuidado com Mensagens Suspeitas</h3>
+            <p>Recebeu uma mensagem no WhatsApp dizendo que um parente precisa de dinheiro urgente ou que você ganhou um
+                prêmio?</p>
+            <div class="alerta">
+                ⚠️ <strong>Atenção:</strong> Ligue para a pessoa antes de transferir qualquer valor ou pedir ajuda a um
+                familiar de confiança.
+            </div>
+        </article>
 
         <!-- DICA 3 -->
-        <section id="whatsapp" class="card">
-            <h3>💬 3. Cuidados no WhatsApp</h3>
-            <p>O WhatsApp é ótimo para falar com a família, mas exige atenção:</p>
-            <ul>
-                <li>Ative a "Confirmação em duas etapas" nas configurações do seu aplicativo.</li>
-                <li>Nunca envie para ninguém o <strong>código de 6 dígitos</strong> que chega por SMS no seu celular.</li>
-                <li>Desconfie de mensagens prometendo prêmios, cestas básicas ou produtos grátis.</li>
-            </ul>
-        </section>
+        <article class="cartao-dica">
+            <h3><span class="icone" aria-hidden="true">🏦</span> 3. Bancos Não Pedem Senhas</h3>
+            <p>Nenhum banco envia mensagens pedindo sua senha ou pedindo para você clicar em links para "atualizar o
+                cadastro".</p>
+            <div class="alerta">
+                🛑 <strong>Importante:</strong> Se receber uma ligação do banco pedindo dados, desligue e ligue para o
+                número que está no seu cartão.
+            </div>
+        </article>
 
-        <!-- CAIXA DE ALERTA -->
-        <aside class="alerta">
-            <h3>🆘 Caiu em um golpe? O que fazer:</h3>
-            <p>1. Ligue imediatamente para o seu banco para bloquear o cartão ou o aplicativo.</p>
-            <p>2. Avise um familiar de sua confiança.</p>
-            <p>3. Vá até uma delegacia para fazer um Boletim de Ocorrência (BO).</p>
-        </aside>
+        <!-- DICA 4 -->
+        <article class="cartao-dica">
+            <h3><span class="icone" aria-hidden="true">🔗</span> 4. Cuidado ao Clicar em Links</h3>
+            <p>Links são aqueles textos azuis ou botões na tela. Só clique em links que foram enviados por pessoas que
+                você conhece e confia.</p>
+        </article>
+
 
     </main>
 
-    <footer>
-        <p>Aplicativo educativo de Segurança Digital. Feito para você!</p>
-    </footer>
+    <!-- RODAPÉ -->
+    <role role="contentinfo">
+        <footer>
+            <p>Aplicativo de Orientação em Segurança Digital — Feito para facilitar o seu dia a dia.</p>
+        </footer>
+    </role>
 
 </body>
+
 </html>
