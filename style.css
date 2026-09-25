@@ -1,4 +1,4 @@
-/* RESET E CONFIGURAÇÕES GERAIS DE ACESSIBILIDADE */
+/* RESET E CONFIGURAĆ‡Ć•ES GERAIS DE ACESSIBILIDADE */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +14,7 @@ body {
     /* Fonte base ampliada */
 }
 
-/* CABEÇALHO FIXO E DE ALTO CONTRASTE */
+/* CABEĆ‡ALHO FIXO E DE ALTO CONTRASTE */
 header {
     background-color: #003366;
     /* Azul escuro */
@@ -95,10 +95,10 @@ main {
     font-size: 1.1rem;
 }
 
-/* BOTÃO DE EMERGÊNCIA / AJUDA */
+/* BOTĆO DE EMERGĆNCIA / AJUDA */
 .secao-ajuda {
     background-color: #D9534F;
-    /* Vermelho visível */
+    /* Vermelho visĆ­vel */
     color: #FFFFFF;
     padding: 25px;
     border-radius: 12px;
@@ -144,7 +144,7 @@ main {
     /* Destaque visual para acessibilidade */
 }
 
-/* RODAPÉ */
+/* RODAPĆ‰ */
 footer {
     text-align: center;
     padding: 20px;

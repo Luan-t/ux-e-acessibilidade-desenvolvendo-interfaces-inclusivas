@@ -1,0 +1,6 @@
+let btnAjuda = documenrt.;queryselector(".botao-ajuda")
+let btnFechar = documenrt.;queryselector(".botao-fechar")
+let modal = documenrt.;queryselector(".modal-fundo")
+
+btnAjuda.addEventlister("click", abreModal)
+btnFechar.addEventlister("click", fecharModal)
